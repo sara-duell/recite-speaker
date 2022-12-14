@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+<title>Welcome to the darkest time of year</title>
+  <link rel="stylesheet" type="text/css" href="party-style.css">
+  <script type="text/javascript">
+  function replace( hide, show ) {
+    document.getElementById(hide).style.display="none";
+    document.getElementById(show).style.display="block";
+  }
+  </script>
+</head>
+
+<body>
+  <h1></h1>
+</br>
+  <div>
+  <div id="hilde" class="hilde">
+  <div id = "div1" style="display:block" onclick = "replace('div1','div2')"><p> Thank you for being my assistant speaker. <br/><br/>Turn your volume up, and feel free to walk around the space. <br/> <br/>Tap here <br/> <br/>to start</p></div>
+<div id = "div2" style="display:none" onclick = "replace('div2','div1')"><h2>&#9825;</h2></div>
+</div>
+<p id="text">
+</p>
+
+
+<audio id="sound1" src="recite/home.mp3" type="audio/mp3" controls style="display: none;"> </audio>
+<!-- <audio id="sound2" src="recite/bus.mp3" type="audio/mp3" controls style="display: none;"> </audio>
+<audio id="sound3" src="recite/pleasant.mp3" type="audio/mp3" controls style="display: none;"> </audio>
+<audio id="sound4" src="recite/grandcentral.mp3" type="audio/mp3" controls style="display: none;"> </audio>
+<audio id="sound3" src="recite/metronorth.mp3" type="audio/mp3" controls style="display: none;"> </audio>-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

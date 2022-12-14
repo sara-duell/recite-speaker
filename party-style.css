@@ -1,0 +1,97 @@
+html,
+body {
+height: 150%;
+min-width: 100%!important;
+padding: 0;
+margin: 0;
+background: rgb(0,0,9);
+background: linear-gradient(180deg, rgba(0,0,9,1) 0%, rgba(9,9,97,1) 66%, rgba(0,5,166,1) 100%);
+text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div.hilde {
+  margin-left: 5%!important;
+  margin-right:5%!important;
+
+  }
+
+h1{
+  font-size: 80px!important;
+  color:#fff;
+  font-family: 'Yesteryear', cursive;
+  font-style: italic;
+
+}
+h2{
+  font-size: 60px;
+  font-family: 'Yesteryear', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 55px;
+  color:#fff;
+
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Yesteryear', cursive;
+  color:#fff;
+
+
+}
+p { font-family: 'Alegreya', cursive;
+font-size: 50px;
+    color:#fff;
+      }
+
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+  height: 150%;
+  min-width: 100%!important;
+  padding: 0;
+  margin: 0;
+  background: rgb(0,0,9);
+  background: linear-gradient(180deg, rgba(0,0,9,1) 0%, rgba(9,9,97,1) 66%, rgba(0,5,166,1) 100%);
+  text-align: center;
+  }
+
+  h2{
+    font-size: 80px;
+    letter-spacing: -4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 80px;
+    color:#fff!important;
+    font-family: 'Yesteryear', cursive;
+
+  }
+
+  h3 {
+    font-size: 20px;
+    color:#fff!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Yesteryear', cursive;
+
+
+  }
+  h3 a:link {
+    font-size: 20px;
+    font-family: 'Yesteryear', cursive;
+    color:#fff!important;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+  p {   font-family: 'Yesteryear', cursive;
+
+  font-size: 50px;
+      color:#fff;
+        }
+
+}
