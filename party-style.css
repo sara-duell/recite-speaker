@@ -22,13 +22,13 @@ div.hilde {
 h1{
   font-size: 80px!important;
   color:#fff;
-  font-family: 'Yesteryear', cursive;
+font-family: 'Alegreya', serif;
   font-style: italic;
 
 }
 h2{
   font-size: 60px;
-  font-family: 'Yesteryear', cursive;
+font-family: 'Alegreya', serif;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 55px;
@@ -67,7 +67,7 @@ font-size: 50px;
     margin-bottom: 0px;
     line-height: 80px;
     color:#fff!important;
-    font-family: 'Yesteryear', cursive;
+font-family: 'Alegreya', serif;
 
   }
 
@@ -76,20 +76,20 @@ font-size: 50px;
     color:#fff!important;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: 'Yesteryear', cursive;
+font-family: 'Alegreya', serif;
 
 
   }
   h3 a:link {
     font-size: 20px;
-    font-family: 'Yesteryear', cursive;
+font-family: 'Alegreya', serif;
     color:#fff!important;
     margin-left: 10%;
     margin-right: 10%;
 
   }
-  p {   font-family: 'Yesteryear', cursive;
-
+  p {   
+    font-family: 'Alegreya', serif;
   font-size: 40px;
       color:#fff;
         }
