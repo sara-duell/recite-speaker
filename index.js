@@ -8,7 +8,7 @@ let audioSources = [
 "recite/bus.mp3",
 "recite/grandcentral.mp3",
 "recite/pleasant.mp3",
-"recite/subway.mp3,
+"recite/subway.mp3",
 "recite/metronorth.mp3"
 ]
 
